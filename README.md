@@ -9,6 +9,11 @@ An icon is not provided.
 
 Generally, the icon should be in ICNS format. However, other formats are supported by the system.
 
+To test out the app, you can run the script file on itself by typing:
+./mkapp.sh mkapp.sh
+This is how I tested if this works. And it does.
+
+## extra stuff:
 The PLIST looks like the following:
 ~~~~
 <?xml version="1.0" encoding="UTF-8"?>
