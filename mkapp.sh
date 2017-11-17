@@ -9,7 +9,7 @@
 
 APPNAME=Runtime #The .APP file name, .app extension is added automatically at the end of it
 EXEDIR=$1 # executable name; above is the .app itself. MUST have no extension unless it is a.out
-ICON=icons.icns # icon file, not necessary (but should be in ICNS format)
+ICON=$2 # icon file, not necessary (but MUST be in ICNS format)
 mkdir $APPNAME.app
 mkdir $APPNAME.app/Contents
 mkdir $APPNAME.app/Contents/Resources
