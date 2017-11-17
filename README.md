@@ -2,8 +2,8 @@
 A simple shell script written in bash for macOS/X which builds Mac .app bundles.
 
 Usage: (from mkapp.sh)
-./mkapp.sh exe
-Where exe is the executable that you want to bundle.
+./mkapp.sh exe icns
+Where exe is the executable that you want to bundle, and icn is the .icns file.
 An info.plist is automatically generated for you.
 An icon is not provided. 
 
