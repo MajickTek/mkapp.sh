@@ -11,24 +11,24 @@ Generally, the icon should be in ICNS format. However, other formats are support
 
 The PLIST looks like the following:
 ~~~~
-    <?xml version="1.0" encoding="UTF-8"?>
-    <!DOCTYPE plist SYSTEM "file://localhost/System/Library/DTDs/PropertyList.dtd">
-    <plist version="1.0">
-    <dict>
-            <key>CFBundleExecutable</key>
-            <string>executable name</string>
-            <key>CFBundleName</key>
-            <string>APP file name</string>
-            <key>CFBundlePackageType</key>
-            <string>APPL</string>
-            <key>CFBundleVersion</key>
-            <string>59</string>
-            <key>CFBundleShortVersionString</key>
-            <string>1.1</string>
-            <key>CFBundleIconFile</key>
-            <string>icon file name</string>
-            <key>CFBundleSignature</key>
-            <string>none</string>
-    </dict>
-    </plist>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist SYSTEM "file://localhost/System/Library/DTDs/PropertyList.dtd">
+<plist version="1.0">
+<dict>
+        <key>CFBundleExecutable</key>
+        <string>executable name</string>
+        <key>CFBundleName</key>
+        <string>APP file name</string>
+        <key>CFBundlePackageType</key>
+        <string>APPL</string>
+        <key>CFBundleVersion</key>
+        <string>59</string>
+        <key>CFBundleShortVersionString</key>
+        <string>1.1</string>
+        <key>CFBundleIconFile</key>
+        <string>icon file name</string>
+        <key>CFBundleSignature</key>
+        <string>none</string>
+</dict>
+</plist>
 ~~~~
