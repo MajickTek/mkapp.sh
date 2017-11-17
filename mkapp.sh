@@ -16,6 +16,7 @@ mkdir $APPNAME.app/Contents/Resources
 mkdir $APPNAME.app/Contents/MacOS
 echo APPLnone > $APPNAME.app/Contents/PkgInfo
 cp $EXEDIR $APPNAME.app/Contents/MacOS
+cp $ICON $APPNAME.app/Contents/Resources
 chmod 755 $APPNAME.app/Contents/MacOS/$EXEDIR # Make it executable with full app permissions
 cat << EOF > $APPNAME.app/Contents/info.plist
 <?xml version="1.0" encoding="UTF-8"?>
