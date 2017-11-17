@@ -2,8 +2,8 @@
 
 # mkapp.sh, the app packager for macOS/X
 # Usage:
-# ./mkapp.sh exe
-# Where exe is the actual executable you want to package.
+# ./mkapp.sh exe icn
+# Where exe is the actual executable you want to package, and icn is the .icns file.
 # An info.plist is automatically generated for you.
 # An icon is not provided.
 
