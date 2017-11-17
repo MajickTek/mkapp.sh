@@ -16,7 +16,7 @@ To test out the app, you can run the script file on itself by typing:
 ./mkapp.sh mkapp.sh
 This is how I tested if this works. And it does.
 
-## extra stuff:
+## Extra Stuff:
 The PLIST looks like the following:
 ~~~~
 <?xml version="1.0" encoding="UTF-8"?>
