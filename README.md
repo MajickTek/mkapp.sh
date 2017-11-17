@@ -10,6 +10,7 @@ An icon is not provided.
 Generally, the icon should be in ICNS format. However, other formats are supported by the system.
 
 The PLIST looks like the following:
+~~~~
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE plist SYSTEM "file://localhost/System/Library/DTDs/PropertyList.dtd">
     <plist version="1.0">
@@ -30,3 +31,4 @@ The PLIST looks like the following:
             <string>none</string>
     </dict>
     </plist>
+~~~~
