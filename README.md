@@ -6,9 +6,7 @@ Usage: (from mkapp.sh)
 
 Where exe is the executable that you want to bundle, and icn is the .icns file.
 
-An info.plist is automatically generated for you.
-
-An icon is not provided. 
+An info.plist is automatically generated for you. 
 
 Generally, the icon should be in ICNS format. However, other formats are supported by the system.
 
