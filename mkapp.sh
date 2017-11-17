@@ -5,7 +5,6 @@
 # ./mkapp.sh exe icn
 # Where exe is the actual executable you want to package, and icn is the .icns file.
 # An info.plist is automatically generated for you.
-# An icon is not provided.
 
 APPNAME=Runtime #The .APP file name, .app extension is added automatically at the end of it
 EXEDIR=$1 # executable name; above is the .app itself. MUST have no extension unless it is a.out
